@@ -1,0 +1,413 @@
+@mixin circleNum ($color) {
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    color: $white;
+    background: $color;
+    border-radius: 50%;
+}
+
+.header-text-title {
+    width: 100%;
+    padding: 20px 20px;
+    background-image: $header-background;
+}
+
+.formStyle {
+    width: 50%;
+    text-align: center;
+}
+
+#wizard>.nav-item>.active {
+    color: $green !important;
+    border-bottom: 2px solid $green;
+}
+
+#wizard>.nav-item>.nav-link {
+    padding: 20px;
+    color: $gray;
+}
+
+.active>.circle-number {
+    @include circleNum($green);
+}
+
+.circle-number {
+    @include circleNum($gray);
+}
+
+.success-step {
+    color: $green;
+}
+
+.circle-success {
+    @include circleNum($green);
+}
+
+#notify-success {
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.card-border {
+    border-top: $card-border;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.color-button {
+    background-color: $blue;
+    border: $card-border;
+    border-radius: 6px;
+}
+
+input[readonly]:focus.no-focus,
+input[type="number"]:focus.no-focus {
+    border-color: $dim-white;
+    outline: 0 none;
+    box-shadow: $form-box-shadow, 0 0 0px $dim-white;
+}
+
+.form-control {
+    border-color: #34cc7d;
+}
+
+.dropdown-item:hover {
+    background: $light-green;
+    cursor: pointer;
+}
+
+.form-control:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: $green;
+    outline: 0 none;
+    box-shadow: $form-box-shadow, 0 0 8px $green;
+}
+
+.space-top {
+    padding-top: 8px;
+}
+
+.underline,
+select.underline {
+    width: 70%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $dim-white;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="text"]:focus,
+select.underline:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.underline-one,
+select.underline-one {
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $dim-white;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="text"]:focus,
+select.underline-one:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.underline-two,
+select.underline-two {
+    width: 50%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $dim-white;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="text"]:focus,
+select.underline-two:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.underline-three,
+select.underline-three {
+    width: 20%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $dim-white;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="text"]:focus,
+select.underline-three:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.underline-four,
+select.underline-four {
+    width: 10%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $dim-white;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="text"]:focus,
+select.underline-four:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.nature-req>.form-check-label {
+    width: 100%;
+}
+
+
+/* Create a custom radio button */
+.radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    background-color: $box-bg;
+    border-radius: 50px;
+}
+
+.radio-div {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+/* Style the radio/indicator */
+.radio-div .radio:after,
+.radio-div .radio-s:after {
+    top: 5.5px;
+    left: 6.5px;
+    width: 8px;
+    height: 8px;
+    background: $white;
+    border: solid $white;
+    border-width: 0 2px 2px 0;
+    border-radius: 50%;
+}
+
+//Checkbox and Radio for Class
+.check-old,
+.radio-old {
+    position: absolute;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    background-color: $box-bg;
+    border-radius: 5px;
+}
+
+//Checkbox and Radio Format
+.checkmark-s,
+.radio-s {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: $box-bg;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-div:hover input~.checkmark,
+.checkbox-div:hover input~.checkmark-s,
+.radio-div:hover input~.radio,
+.radio-div:hover input~.radio-s {
+    background-color: $box-hover;
+}
+
+/* When the checkbox is checked*/
+.checkbox-div input:checked~.checkmark,
+.checkbox-div input:checked~.checkmark-s,
+.radio-div input:checked~.radio,
+.radio-div input:checked~.radio-s {
+    background-color: $box-default;
+}
+
+/* Create the checkmark and radio/indicator (hidden when not checked) */
+.checkmark:after,
+.checkmark-s:after,
+.radio:after,
+.radio-s:after {
+    position: absolute;
+    display: none;
+    content: "";
+}
+
+/* Show the checkmark/radio when checked */
+.checkbox-div input:checked~.checkmark:after,
+.checkbox-div input:checked~.checkmark-s:after,
+.radio-div input:checked~.radio:after,
+.radio-div input:checked~.radio-s:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-div .checkmark:after,
+.checkbox-div .checkmark-s:after {
+    top: 5px;
+    left: 7.5px;
+    width: 5px;
+    height: 8px;
+    border: solid $white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.tax,
+.dswd,
+.payslip {
+    margin-right: 45px;
+}
+
+.affidavit-info {
+    width: 70%;
+}
+
+.nature-req {
+    margin-bottom: 18px;
+}
+
+.nature-case {
+    margin-bottom: 15px;
+}
+
+.pending-margin {
+    margin-bottom: 37px;
+}
+
+.pending {
+    margin-bottom: 32px;
+}
+
+.yesno-margin {
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.form-group--error .form__label,
+.form-group--error .form__label--inline {
+    color: #f04124;
+}
+
+.form-group--error input,
+.form-group--error textarea,
+.form-group--error input:focus,
+.form-group--error input:hover,
+.form-group--error select,
+.form-group--error textarea,
+.form-group--error select:focus,
+.form-group--error select:hover {
+    border-color: #f79483;
+}
+
+.form-group--error+.form-group__message,
+.form-group--error+.error {
+    display: block;
+    color: #f57f6c;
+}
+
+.form-group__message,
+.error {
+    display: none;
+    margin-bottom: 0.9375rem;
+    margin-left: 14px;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+#wizard > .nav-item {
+    cursor: pointer;
+}
+
+.form-calendar > div > input {
+    display: block !important;
+    width: 100% !important;
+    height: calc(2.19rem + 2px) !important;
+    padding: 0.375rem 0.75rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 0.25rem !important;
+    border-color: $green !important;
+}
+
+.form-calendar .cell.selected {
+    background: $green !important;
+    color: $white;
+    border-radius: 5px !important;
+}
+
+.form-calendar .cell:not(.blank):not(.disabled).day:hover, .form-calendar .cell:not(.blank):not(.disabled).month:hover, .form-calendar .cell:not(.blank):not(.disabled).year:hover {
+    border: 1px solid $green !important;
+    border-radius: 5px !important;
+}
+
+.v-select > .dropdown-toggle::after {
+    display: none !important;
+}

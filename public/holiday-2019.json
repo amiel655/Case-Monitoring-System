@@ -1,0 +1,146 @@
+[
+ {
+   "Day": "Tuesday",
+   "Date": "January 01",
+   "Holiday": "New Year's Day",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Wednesday",
+   "Date": "January 02",
+   "Holiday": "New Year's Holiday",
+   "Comments": "Government, universities and colleges"
+ },
+ {
+   "Day": "Tuesday",
+   "Date": "February 05",
+   "Holiday": "Chinese New Year",
+   "Comments": "Special non-working day"
+ },
+ {
+   "Day": "Monday",
+   "Date": "February 25",
+   "Holiday": "People Power Revolution",
+   "Comments": "Special non-working day"
+ },
+ {
+   "Day": "Saturday",
+   "Date": "March 16",
+   "Holiday": "Davao City Day",
+   "Comments": "Davao City only. Marks the creation of the city"
+ },
+ {
+   "Day": "Tuesday",
+   "Date": "April 09",
+   "Holiday": "The Day of Valor",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Thursday",
+   "Date": "April 18",
+   "Holiday": "Maundy Thursday",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Friday",
+   "Date": "April 19",
+   "Holiday": "Good Friday",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Saturday",
+   "Date": "April 20",
+   "Holiday": "Black Saturday",
+   "Comments": "Special Non-working day"
+ },
+ {
+   "Day": "Wednesday",
+   "Date": "May 01",
+   "Holiday": "Labor Day",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Wednesday",
+   "Date": "June 05",
+   "Holiday": "Eid'l Fitr",
+   "Comments": "The Feast of Ramadan. Date to be confirmed."
+ },
+ {
+   "Day": "Wednesday",
+   "Date": "June 12",
+   "Holiday": "Independence Day",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Monday",
+   "Date": "June 24",
+   "Holiday": "Manila Day",
+   "Comments": "Manila only. Marks the foundation of the city"
+ },
+ {
+   "Day": "Monday",
+   "Date": "August 12",
+   "Holiday": "Eidul Adha",
+   "Comments": "Sacrifice Feast. Date to be confirmed."
+ },
+ {
+   "Day": "Wednesday",
+   "Date": "August 21",
+   "Holiday": "Ninoy Aquino Day",
+   "Comments": "Special Non-working day"
+ },
+ {
+   "Day": "Monday",
+   "Date": "August 26",
+   "Holiday": "National Heroes Day",
+   "Comments": "Regular holiday. Last Monday of August"
+ },
+ {
+   "Day": "Friday",
+   "Date": "November 01",
+   "Holiday": "All Saints' Day",
+   "Comments": "Special Non-working day"
+ },
+ {
+   "Day": "Saturday",
+   "Date": "November 02",
+   "Holiday": "All Souls' Day",
+   "Comments": "Additional Special Non-Working Day"
+ },
+ {
+   "Day": "Saturday",
+   "Date": "November 30",
+   "Holiday": "Bonifacio Day",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Sunday",
+   "Date": "December 08",
+   "Holiday": "Immaculate Conception Day",
+   "Comments": "Special non-working holiday from 2018"
+ },
+ {
+   "Day": "Tuesday",
+   "Date": "December 24",
+   "Holiday": "Christmas Eve",
+   "Comments": "Additional Special Non-Working Day"
+ },
+ {
+   "Day": "Wednesday",
+   "Date": "December 25",
+   "Holiday": "Christmas Day",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Monday",
+   "Date": "December 30",
+   "Holiday": "Rizal Day",
+   "Comments": "Regular holiday"
+ },
+ {
+   "Day": "Tuesday",
+   "Date": "December 31",
+   "Holiday": "New Year's Eve",
+   "Comments": "Special Non-working day"
+ }
+]

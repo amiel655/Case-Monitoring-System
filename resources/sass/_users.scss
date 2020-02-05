@@ -1,0 +1,52 @@
+.img-border{
+    border: $card-border;
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.box-profile {
+    color: $white;
+    border-radius: 15px;
+    background-image: linear-gradient(141deg, #11998e, #38ef7d);
+}
+
+.card-border-user {
+    border-top: $card-border;
+    border-right: none;
+    border-bottom: $card-border;
+    border-left: none;
+}
+
+.img-size{
+    width: 50%;
+    height: 50%;
+}
+
+.modal-header{
+    background-image: $header-background;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.modal-content{
+    border-radius: 20px;
+    border: 0;
+}
+
+.modal-title{
+    color: $white;
+}
+
+.list-group-unbordered>.list-group-item {
+    background: transparent;
+}
+
+.user-id {
+    color: $white !important;
+}
+
+.badge-info {
+    color: $white;
+}

@@ -1,0 +1,40 @@
+.table {
+    width: 100%;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+#clients-table {
+    overflow-x: auto !important;
+}
+
+.table.text-center th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 1px solid transparent;
+}
+
+.client-header-card{
+    background-image: $header-background;
+    padding: 10px 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -20px;
+    border-radius: 5px;
+    color: $white;
+}
+
+.empty {
+    & h3 {
+        margin: 0 auto;
+        width: 50%;
+        color: $green;
+        border-top: 5px solid $light-green;
+        border-bottom: 5px solid $light-green;
+    }
+}

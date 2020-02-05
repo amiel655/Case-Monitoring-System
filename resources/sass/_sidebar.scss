@@ -1,0 +1,39 @@
+aside {
+    overflow: hidden !important;
+    
+    & .main-sidebar {
+        overflow: hidden;
+    }
+
+    & .brand-image {
+        margin-top: 6px;
+    }
+
+    & .nav-pills .nav-link {
+        border-radius: .10rem;
+    }
+
+    & .router-link-exact-active {
+        color: $white !important;
+        background: #212529;
+        border-left: 4px solid $green;
+    }
+
+    .router-link-exact-active > .material-icons {
+        color: $green;
+    }
+
+    & .district {
+        font-size: 12px;
+        display: block !important;
+    }
+}
+
+.material-icons,
+.sidebar .nav-link p .material-icons {
+    font-size: 1.7rem !important;
+    vertical-align: middle !important;
+}
+
+
+

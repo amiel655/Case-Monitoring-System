@@ -1,0 +1,96 @@
+.dashboard-sec-1 {
+    background-image: url('~/img/background-img/dashboard-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    border-radius: 10px;
+}
+
+.hr {
+    border-bottom: 1px solid $white;
+}
+
+.latest-case-link {
+    color: $green;
+    text-decoration: none;
+    &:hover {
+        color: $light-green;
+        text-decoration: none;
+    }
+}
+
+.dashboard-sec-2 {
+    color: $white;
+    background-color: #343a40;
+    border-radius: 10px;
+}
+
+.nature-request-card:nth-of-type(2) {
+    background: $blue;
+}
+
+.nature-request-card:nth-of-type(4) {
+    background: $indigo;
+}
+
+.nature-request-card:nth-of-type(3) {
+    background: $purple;
+}
+
+.nature-request-card1:nth-of-type(3) {
+    background: $red;
+}
+
+.nature-request-card1:nth-of-type(2) {
+    background: $orange;
+}
+
+.nature-request-card:nth-of-type(1) {
+    background: $cyan;
+}
+
+.nature-request-card1:nth-of-type(1) {
+    background: $green;
+}
+
+.main-stats {
+    background-image: linear-gradient(to right, #5433FF, #20BDFF);
+}
+
+.crime-list {
+    background: none;
+    border-top-color: $blue;
+}
+
+.carousel-indicators > li {
+}
+
+#dashboard-calendar > div >  .vdp-datepicker__calendar {
+    background: transparent !important;
+    border: none !important;
+    padding-right: 50px !important;
+}
+
+#dashboard-calendar > div > .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover,
+#dashboard-calendar > div > .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover,
+#dashboard-calendar > div > .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover {
+    border: 1px solid $green !important;
+    border-radius: 5px !important;
+}
+
+#dashboard-calendar>div>.vdp-datepicker__calendar .disabled {
+    color: #666666;
+}
+
+#dashboard-calendar>div>.vdp-datepicker__calendar span:hover {
+    background: none !important;
+    color:$green;
+}
+
+#dashboard-calendar>div>.vdp-datepicker__calendar .cell.selected {
+    background: none;
+    border: 1px solid $green !important;
+    border-radius: 5px !important;
+    color:$green;
+}
+

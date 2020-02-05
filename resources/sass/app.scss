@@ -1,0 +1,75 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Admin LTE
+@import '~admin-lte/dist/css/adminlte.min.css';
+
+// Material Icons
+@import '~material-icons/iconfont/material-icons';
+
+// Full Calendar
+@import '~fullcalendar/dist/fullcalendar.css';
+
+// WYSIWYG
+@import "~froala-editor/css/froala_editor.pkgd.min.css";
+@import "~froala-editor/css/froala_style.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+// Home
+@import 'home';
+
+// Navbar
+@import 'navbar';
+
+// SideBar
+@import 'sidebar';
+
+// Interview Form
+@import 'form';
+
+// Profile
+@import 'profile';
+
+// Profile
+@import 'users';
+
+// Login
+@import 'login';
+
+// Client
+@import 'client';
+
+// Reports
+@import 'reports';
+
+// Print
+@import 'print';
+
+// 404
+@import '404';
+
+// Calendar
+@import 'calendar';
+
+// Case
+@import 'case';
+
+// Dashboard
+@import 'dashboard';
+
+// Global Style
+html,
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.modal {
+    overflow: hidden !important;
+}

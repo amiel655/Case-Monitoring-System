@@ -1,0 +1,107 @@
+.login-bg {
+    background: url('/img/background-img/pao-bg.jpg') center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+
+    #login-form {
+        max-width: 900px;
+        padding: 30px;
+        padding-bottom: 19.5vh;
+
+        .login-padding {
+            padding-top: 12% !important;
+        }
+
+        .login {
+            -webkit-box-shadow: 10px 10px 5px 0px #0000007d;
+            -moz-box-shadow: 10px 10px 5px 0px #0000007d;
+            box-shadow: 10px 10px 5px 0px #0000007d;
+
+            .pao-login-left {
+                background: url('/img/background-img/pao-login-bg.jpg') center;
+                background-size: cover;
+                background-position: center;
+                color: $white;
+                border-top-left-radius: 13px;
+                border-bottom-left-radius: 13px;
+
+                .login-logo {
+                    height: 200px;
+                    width: 200px;
+                    animation: glow 3s ease-in-out infinite;
+                }
+
+                @keyframes glow {
+                    0% {
+                        -webkit-filter: drop-shadow(0px 0px -10px $green);
+                    }
+
+                    40% {
+                        -webkit-filter: drop-shadow(0px 0px 15px $green);
+                    }
+
+                    60% {
+                        -webkit-filter: drop-shadow(0px 0px 15px $green);
+                    }
+
+                    100% {
+                        -webkit-filter: drop-shadow(0px 0px -10px $green);
+                    }
+                }
+            }
+
+            .pao-login-right {
+                background: #f7f7f7;
+                border-top-right-radius: 13px;
+                border-bottom-right-radius: 13px;
+
+                & label>.material-icons {
+                    color: $green;
+                }
+
+                .login-input {
+                    border-radius: 20px;
+                    border: 2px solid $green;
+                    background: transparent !important;
+                }
+
+                .btn-link {
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+
+                .btn-login {
+                    padding: 8px;
+                    width: 155px;
+                    border-radius: 40px;
+
+                    .material-icons {
+                        animation: login-arrow 3s ease-in-out infinite;
+                    }
+                }
+
+                @keyframes login-arrow {
+                    0%,
+                    100% {
+                        transform: translate(0, 0);
+                    }
+                    50% {
+                        transform: translate(8px, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-nav .nav-link {
+    padding: 4px;
+    background-image: $header-background;
+    text-align: center;
+    width: 150px;
+    border-radius: 20px;
+}

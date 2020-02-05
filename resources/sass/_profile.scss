@@ -1,0 +1,42 @@
+.widget-user {
+    border-radius: 5px;
+
+    & .widget-user-background {
+        background-image: url('~/img/background-img/user-cover.jpg');
+        background-size: cover;
+        height: 100%;
+        border-radius: 5px;
+        padding: 8px;
+    }
+
+    & .widget-user-username,
+    .widget-user-desc {
+        color: $white;
+    }
+
+    & .img-circle {
+        width: 180px !important;
+        border: 3px solid $green;
+    }
+}
+
+.nav-pills .nav-link {
+    color: $white !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: $white;
+    background-color: transparent !important;
+    border-bottom: 2px solid $white;
+    border-radius: 0px;
+}
+.nav-pills .nav-link.active:hover {
+    color: $white !important;
+    cursor: pointer;
+}
+
+.nav-pills .nav-link:hover {
+    color: $green !important;
+    cursor: pointer;
+}

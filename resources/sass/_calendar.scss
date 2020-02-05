@@ -1,0 +1,119 @@
+.jumbotron {
+    padding-top: 20px;
+    background: $white;
+    -webkit-box-shadow: 5px 5px 3px 0px #4242427d;
+    -moz-box-shadow: 5px 5px 3px 0px #4242427d;
+    box-shadow: 5px 5px 3px 0px #4242427d;
+
+    .fc-widget-header,
+    .fc-today {
+        background: $green !important;
+        color: $white
+    }
+
+    .fc-widget-header {
+        border-radius: 5px !important;
+        border: none !important;
+    }
+
+    .fc-day {
+        border-color: $dark-green;
+    }
+
+    .fc-content {
+        color: $white;
+
+        &:hover {
+            cursor: pointer !important;
+        }
+    }
+
+    .fc-center {
+        color: $green;
+        border-top: 2px solid $light-green;
+        border-bottom: 2px solid $light-green;
+
+        & h2 {
+            font-size: 35px !important;
+        }
+    }
+
+    .fc-title {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .btn-primary {
+        background-color: $green;
+        border-color: $green;
+    }
+
+    .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: $green;
+        border-color: $green;
+}
+
+    .pallete {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        -webkit-transition: width .2s;
+        transition: width .2s;
+    }
+
+    .pallete:hover {
+        width: 40px;
+    }
+
+    .pallete-blue {
+        background: $blue;
+    }
+
+    .pallete-indigo {
+        background: $indigo;
+    }
+
+    .pallete-purple {
+        background: $purple;
+    }
+
+    .pallete-pink {
+        background: $pink;
+    }
+
+    .pallete-red {
+        background: $red;
+    }
+
+    .pallete-orange {
+        background: $orange;
+    }
+
+    .pallete-yellow {
+        background: $yellow;
+    }
+
+    .pallete-green {
+        background: $green;
+    }
+
+    .pallete-teal {
+        background: $teal;
+    }
+
+    .pallete-cyan {
+        background: $cyan;
+    }
+
+    .pallete-gray {
+        background: $gray;
+    }
+
+    .pallete-black {
+        background: $thead;
+    }
+}
+
+.popover-body {
+    color: $black !important;
+}
